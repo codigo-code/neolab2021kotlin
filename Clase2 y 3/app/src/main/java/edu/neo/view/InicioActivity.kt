@@ -1,0 +1,102 @@
+package edu.neo.view
+
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import android.view.View
+import android.widget.*
+import androidx.lifecycle.ViewModelProvider
+import edu.neo.R
+import edu.neo.viewmodel.PersonaViewModel
+
+class InicioActivity : AppCompatActivity() {
+
+    lateinit var nombre: EditText
+    lateinit var apellido: EditText
+    lateinit var email: EditText
+    lateinit var fechaNacimiento: EditText
+    lateinit var rgSexo: RadioGroup
+    lateinit var fuma: Switch
+    lateinit var sp_trabajo: Spinner
+    lateinit var guardar: Button
+    val trabajos =arrayOf("estudiante", "docente", "programad@r", "comerciante", "aspirante a neoris")
+
+    lateinit var inicioVM: PersonaViewModel
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_inicio)
+
+
+         inicioVM = ViewModelProvider(this).get(PersonaViewModel::class.java)
+
+
+        inicilizar()
+
+        inicializoSpinner()
+
+        var trabajoSeleccionado:String =""
+        sp_trabajo.onItemSelectedListener = object: AdapterView.OnItemSelectedListener{
+
+            override fun onNothingSelected(p0: AdapterView<*>?) {
+             // TODO: cargar la lista
+                Toast.makeText(applicationContext,"no hay items seleccionados", Toast.LENGTH_LONG).show()
+            }
+
+            override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
+                trabajoSeleccionado= trabajos[position]
+            }
+
+        }
+
+
+
+
+        // enlazar el radio button para obtener su valor
+
+        guardar.setOnClickListener(
+
+            View.OnClickListener {
+
+                // obtenemos la posicion del radioButton por medio del RadioGroup
+                val selected: Int = rgSexo!!.checkedRadioButtonId
+
+                // generar una nueva variable de tipo RB, y hacemos el find, con el obj seleccionado del RG
+                val rb_selected: RadioButton = findViewById(selected)
+
+                val sexo:String = rb_selected!!.text.toString()
+
+
+                if(inicioVM.savePersona(nombre.text.toString(), apellido.text.toString(),fechaNacimiento.text.toString(),email.text.toString(),sexo,fuma.isChecked,trabajoSeleccionado,it.context))
+                    Toast.makeText(it.context, "Persona Guardada!", Toast.LENGTH_SHORT).show()
+                else
+                    Toast.makeText(it.context,"Error al guardar la persona, vea el log!", Toast.LENGTH_SHORT).show()
+            }
+
+        )
+
+
+        // var user: User =  intent.getSerializableExtra("usuario") as User
+
+        // Toast.makeText(this,"Hola " + user.username, Toast.LENGTH_LONG).show()
+    }
+
+    private fun inicilizar() {
+        nombre = findViewById(R.id.i_name)
+        apellido = findViewById(R.id.i_lastname)
+        email = findViewById(R.id.i_mail)
+        fechaNacimiento = findViewById(R.id.i_bdate)
+        rgSexo = findViewById(R.id.i_rgsex)
+        fuma = findViewById(R.id.i_smoke)
+        sp_trabajo = findViewById(R.id.i_job)
+        guardar = findViewById(R.id.i_save)
+
+    }
+
+    private fun inicializoSpinner() {
+        sp_trabajo.adapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, trabajos)
+
+
+    }
+
+
+}
