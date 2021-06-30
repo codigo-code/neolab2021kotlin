@@ -1,12 +1,16 @@
 package edu.neo.view
 
+import android.icu.lang.UCharacter
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.*
 import androidx.lifecycle.ViewModelProvider
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import edu.neo.R
 import edu.neo.viewmodel.PersonaViewModel
+import edu.neo.viewmodel.recycleview.PersonaAdapter
 
 class InicioActivity : AppCompatActivity() {
 
@@ -18,6 +22,8 @@ class InicioActivity : AppCompatActivity() {
     lateinit var fuma: Switch
     lateinit var sp_trabajo: Spinner
     lateinit var guardar: Button
+    lateinit var verPersonas:Button
+    lateinit var rv_personas:RecyclerView
     val trabajos =arrayOf("estudiante", "docente", "programad@r", "comerciante", "aspirante a neoris")
 
     lateinit var inicioVM: PersonaViewModel
@@ -75,9 +81,19 @@ class InicioActivity : AppCompatActivity() {
         )
 
 
-        // var user: User =  intent.getSerializableExtra("usuario") as User
+        verPersonas.setOnClickListener(
+            View.OnClickListener {
 
-        // Toast.makeText(this,"Hola " + user.username, Toast.LENGTH_LONG).show()
+                rv_personas.layoutManager =LinearLayoutManager(this,RecyclerView.VERTICAL,false)
+
+
+
+                rv_personas.adapter = PersonaAdapter(inicioVM.getAllPersonas(this))
+
+            }
+
+        )
+
     }
 
     private fun inicilizar() {
@@ -89,7 +105,8 @@ class InicioActivity : AppCompatActivity() {
         fuma = findViewById(R.id.i_smoke)
         sp_trabajo = findViewById(R.id.i_job)
         guardar = findViewById(R.id.i_save)
-
+        verPersonas= findViewById(R.id.i_mostrarPersonas)
+        rv_personas= findViewById(R.id.i_rv_personas)
     }
 
     private fun inicializoSpinner() {

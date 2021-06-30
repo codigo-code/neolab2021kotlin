@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
     tools:context=".view.InicioActivity">
 
@@ -79,4 +79,24 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="guardar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <Button
+            android:id="@+id/i_mostrarPersonas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ver Personas" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/i_rv_personas"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </ScrollView>
+
+
 </LinearLayout>

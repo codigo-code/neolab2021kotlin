@@ -20,10 +20,17 @@ class PersonaViewModel : ViewModel() {
         trabajo: String,
         context: Context
     ): Boolean {
+
         val db: DbHelper = DbHelper(context, null)
 
         return db.savePerson(Persona(nombre, apellido, fechaNacimiento, mail, sexo, fuma, trabajo))
+    }
 
 
+
+    fun getAllPersonas(context: Context):ArrayList<Persona>{
+        val db: DbHelper = DbHelper(context, null)
+
+        return db.getAllPersonas()
     }
 }
