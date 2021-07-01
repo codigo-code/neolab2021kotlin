@@ -18,15 +18,15 @@ class DbHelper(
         private val DATABASE_NAME = "persona.db"
         private val DATABASE_VERSION = 1
 
-        val TABLE_NAME = " personas "
-        val COLUMN_ID = " id "
-        val COLUMN_NOMBRE = " nombre "
-        val COLUMN_APELLIDO = " apellido "
-        val COLUMN_MAIL = " mail "
-        val COLUMN_FECHA_NACIMIENTO = " fechanac "
-        val COLUMN_SEXO = " sexo "
-        val COLUMN_FUMA = " fuma "
-        val COLUMN_TRABAJO = " trabajo "
+        val TABLE_NAME = "personas"
+        val COLUMN_ID = "id"
+        val COLUMN_NOMBRE = "nombre"
+        val COLUMN_APELLIDO = "apellido"
+        val COLUMN_MAIL = "mail"
+        val COLUMN_FECHA_NACIMIENTO = "fechanac"
+        val COLUMN_SEXO = "sexo"
+        val COLUMN_FUMA = "fuma"
+        val COLUMN_TRABAJO = "trabajo"
 
     }
 
@@ -34,14 +34,14 @@ class DbHelper(
     override fun onCreate(db: SQLiteDatabase?) {
 
         var createTable =
-            ("CREATE TABLE" + TABLE_NAME + " ( " + COLUMN_ID + " INTEGER PRIMARY KEY, " +
+            ("CREATE TABLE " + TABLE_NAME + " ( " + COLUMN_ID + " INTEGER PRIMARY KEY, " +
                     COLUMN_NOMBRE + " TEXT, " +
                     COLUMN_APELLIDO + " TEXT, " +
                     COLUMN_MAIL + " TEXT, " +
                     COLUMN_FECHA_NACIMIENTO + " TEXT, " +
                     COLUMN_SEXO + " TEXT, " +
                     COLUMN_FUMA + " TEXT, " +
-                    COLUMN_TRABAJO + "TEXT ) ")
+                    COLUMN_TRABAJO + " TEXT ) ")
 
         db?.execSQL(createTable)
 

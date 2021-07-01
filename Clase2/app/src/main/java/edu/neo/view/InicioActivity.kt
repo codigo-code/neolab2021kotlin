@@ -1,5 +1,6 @@
 package edu.neo.view
 
+import android.annotation.SuppressLint
 import android.icu.lang.UCharacter
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -28,6 +29,7 @@ class InicioActivity : AppCompatActivity() {
 
     lateinit var inicioVM: PersonaViewModel
 
+    @SuppressLint("WrongConstant")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_inicio)
@@ -84,7 +86,7 @@ class InicioActivity : AppCompatActivity() {
         verPersonas.setOnClickListener(
             View.OnClickListener {
 
-                rv_personas.layoutManager =LinearLayoutManager(this,RecyclerView.VERTICAL,false)
+                rv_personas.layoutManager =LinearLayoutManager(this,LinearLayout.VERTICAL,false)
 
 
 
