@@ -80,23 +80,16 @@
         android:layout_height="wrap_content"
         android:text="guardar" />
 
-    <ScrollView
+
+    <Button
+        android:id="@+id/i_mostrarPersonas"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content"
+        android:text="Ver Personas" />
 
-
-        <Button
-            android:id="@+id/i_mostrarPersonas"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Ver Personas" />
-
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/i_rv_personas"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-
-    </ScrollView>
-
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/i_rv_personas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
 </LinearLayout>
