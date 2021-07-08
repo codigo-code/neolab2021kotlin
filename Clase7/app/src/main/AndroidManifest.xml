@@ -11,8 +11,8 @@
         android:supportsRtl="true"
         android:usesCleartextTraffic="true"
         android:theme="@style/Theme.Clase7">
-        <activity android:name=".MainActivity"></activity>
-        <activity android:name=".Spash">
+        <activity android:name=".view.MainActivity"></activity>
+        <activity android:name=".view.Spash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

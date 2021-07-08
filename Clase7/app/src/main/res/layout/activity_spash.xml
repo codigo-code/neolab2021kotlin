@@ -5,7 +5,7 @@
     android:id="@+id/splash_foto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Spash">
+    tools:context=".view.Spash">
 
     <ImageView
         android:id="@+id/imageView"

@@ -1,10 +1,11 @@
-package edu.neo
+package edu.neo.view
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.widget.ImageView
+import edu.neo.R
 
 
 class Spash : AppCompatActivity() {
@@ -18,7 +19,7 @@ class Spash : AppCompatActivity() {
 
         Handler().postDelayed({
         // este codigo que vemos aca....
-            val intent = Intent(this,MainActivity::class.java)
+            val intent = Intent(this, MainActivity::class.java)
             //intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TASK or Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TOP
 
             startActivity(intent)
