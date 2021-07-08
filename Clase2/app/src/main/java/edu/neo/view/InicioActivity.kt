@@ -87,7 +87,11 @@ class InicioActivity : AppCompatActivity() {
         verPersonas.setOnClickListener(
             View.OnClickListener {
 
+<<<<<<< HEAD
                 rv_personas.layoutManager =LinearLayoutManager(this, VERTICAL,false)
+=======
+                rv_personas.layoutManager =LinearLayoutManager(this,LinearLayout.VERTICAL,false)
+>>>>>>> 1f9fc57011e5d05711fa7a93f0072e3576440beb
 
 
 

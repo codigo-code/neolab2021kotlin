@@ -18,15 +18,15 @@ class DbHelper(
         private val DATABASE_NAME = "persona.db"
         private val DATABASE_VERSION = 1
 
-        val TABLE_NAME = " personas "
-        val COLUMN_ID = " id "
-        val COLUMN_NOMBRE = " nombre "
-        val COLUMN_APELLIDO = " apellido "
-        val COLUMN_MAIL = " mail "
-        val COLUMN_FECHA_NACIMIENTO = " fechanac "
-        val COLUMN_SEXO = " sexo "
-        val COLUMN_FUMA = " fuma "
-        val COLUMN_TRABAJO = " trabajo "
+        val TABLE_NAME = "personas"
+        val COLUMN_ID = "id"
+        val COLUMN_NOMBRE = "nombre"
+        val COLUMN_APELLIDO = "apellido"
+        val COLUMN_MAIL = "mail"
+        val COLUMN_FECHA_NACIMIENTO = "fechanac"
+        val COLUMN_SEXO = "sexo"
+        val COLUMN_FUMA = "fuma"
+        val COLUMN_TRABAJO = "trabajo"
 
     }
 
@@ -34,14 +34,18 @@ class DbHelper(
     override fun onCreate(db: SQLiteDatabase?) {
 
         var createTable =
-            ("CREATE TABLE" + TABLE_NAME + " ( " + COLUMN_ID + " INTEGER PRIMARY KEY, " +
+            ("CREATE TABLE " + TABLE_NAME + " ( " + COLUMN_ID + " INTEGER PRIMARY KEY, " +
                     COLUMN_NOMBRE + " TEXT, " +
                     COLUMN_APELLIDO + " TEXT, " +
                     COLUMN_MAIL + " TEXT, " +
                     COLUMN_FECHA_NACIMIENTO + " TEXT, " +
                     COLUMN_SEXO + " TEXT, " +
                     COLUMN_FUMA + " TEXT, " +
-                    COLUMN_TRABAJO + "TEXT ) ")
+                    COLUMN_TRABAJO + " TEXT ) ")
+
+
+
+
 
         db?.execSQL(createTable)
 
@@ -96,6 +100,7 @@ class DbHelper(
 
         if (cursor.moveToFirst()) {
             do {
+                val id = cursor.getInt(cursor.getColumnIndex(COLUMN_ID))
                 val nombre = cursor.getString(cursor.getColumnIndex(COLUMN_NOMBRE))
                 val apellido = cursor.getString(cursor.getColumnIndex(COLUMN_APELLIDO))
                 val fechaNac = cursor.getString(cursor.getColumnIndex(COLUMN_FECHA_NACIMIENTO))
@@ -108,11 +113,45 @@ class DbHelper(
                     fumarb = true
                 }
 
-                listapersonas.add(Persona(nombre, apellido, fechaNac, mail, sexo, fumarb, trabajo))
+                listapersonas.add(
+                    Persona(
+                        id,
+                        nombre,
+                        apellido,
+                        fechaNac,
+                        mail,
+                        sexo,
+                        fumarb,
+                        trabajo
+                    )
+                )
             } while (cursor.moveToNext())
 
         }
         return listapersonas
+    }
+
+    fun modificarPersona(nombre: String, mail: String, id: Int): Boolean {
+        var b: Boolean = false
+        try {
+
+            val db = this.writableDatabase
+
+            val values = ContentValues()
+
+            values.put(COLUMN_NOMBRE, nombre)
+            values.put(COLUMN_MAIL, mail)
+
+            val whereclause = "$COLUMN_ID=?"
+            val whereargs = arrayOf(id.toString())
+
+            db.update(TABLE_NAME, values, whereclause, whereargs)
+            b = true
+        } catch (e: Exception) {
+            Log.e("Error al modificar", e.message.toString())
+        }
+        return b
+
     }
 
 }

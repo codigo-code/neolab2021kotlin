@@ -23,7 +23,7 @@ class PersonaViewModel : ViewModel() {
 
         val db: DbHelper = DbHelper(context, null)
 
-        return db.savePerson(Persona(nombre, apellido, fechaNacimiento, mail, sexo, fuma, trabajo))
+        return db.savePerson(Persona(0,nombre, apellido, fechaNacimiento, mail, sexo, fuma, trabajo))
     }
 
 

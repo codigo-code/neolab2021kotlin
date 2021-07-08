@@ -10,6 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Clase2">
         <activity android:name=".view.InicioActivity"></activity>
+        <activity android:name=".view.PersonaModificarActivity"></activity>
         <activity android:name=".view.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
