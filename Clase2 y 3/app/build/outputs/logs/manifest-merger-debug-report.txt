@@ -1,0 +1,187 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/neoris/dev/neolabkotlin2021/Clase2/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/neoris/dev/neolabkotlin2021/Clase2/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/neoris/dev/neolabkotlin2021/Clase2/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/neoris/dev/neolabkotlin2021/Clase2/app/src/main/AndroidManifest.xml:2:1-22:12
+MERGED from [androidx.core:core-ktx:1.5.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/cf4f59ae0c999f13731f62320245edc5/jetified-core-ktx-1.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.material:material:1.3.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/3181a5a230173e134995bbcc86f80951/material-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/neoris/.gradle/caches/transforms-2/files-2.1/ba0e093ab9feaac534db9609fbf48161/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/b3b2542a977fc3ec26045095d2e4b611/appcompat-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/0b87ab1084a68f31fe387bc7a6868a5f/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.4] /Users/neoris/.gradle/caches/transforms-2/files-2.1/0668a1975f8156cd8eb5167294bd8680/fragment-1.3.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.3] /Users/neoris/.gradle/caches/transforms-2/files-2.1/c04b982900c1b9f8de65701d1e876593/jetified-activity-1.2.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/24f16f1ae1aaa067e37471e4086f8ace/jetified-appcompat-resources-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/cbe165716a1da158b27c45f9619521d6/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/af6faebdfaee8ede67ca356f9981a994/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/244af364c4722f7089dd9dc8d9f9e991/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/79b2779e8fbf8fbcb063f9f9e4e67056/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/9a01dfeb8289247486dbf03ddd941979/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/b7ae13ed11f3404e11a0bb746492733b/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/3b05e92a0b4e3112ba851c915a140a05/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/4766ec18f97cab2ef017ece40ecc56c8/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/c8b5df6ac502237992eb101dc66d4842/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/a6504399b3add68ab1d1cfa33877b7b9/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/c3573009bfe2f3959f59564cb09bec83/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.5.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/8ad9781498a53f7bdb0aff7d26128e97/core-1.5.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/6e169f0fffbca92a5aa037f21ef6507d/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/neoris/.gradle/caches/transforms-2/files-2.1/96cbf745a2db27cbb5367d7c59651321/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/f6aa322e78b2ea3358b8ca84f229c3b8/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/neoris/.gradle/caches/transforms-2/files-2.1/9d25dc472666990b383afef755a351e6/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/neoris/.gradle/caches/transforms-2/files-2.1/de6240809eb11f32e6b84f54a1c2cb70/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/036e7ee8aa9548d79b7d25c6ad0be62d/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/neoris/.gradle/caches/transforms-2/files-2.1/aeb7c424967bfdf4e41425f562b12a24/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/729d9cdf5cf43515f2831e07e462ba44/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/aad614d97ae7fbea1f0f8cb617937cc2/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/neoris/.gradle/caches/transforms-2/files-2.1/7c9f676589f73eac62d52d63318e394d/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/08bd8de163e4dce53d513b3cb9b25234/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/34bb78b8cebf54a661c5dc71920c2928/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/b8a526d91d1433f80bc255868b7dd72f/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/4dfd89864b23f573304fc4d6326895a2/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/206106f115d834f1282b530daecf9d84/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/ccdffb566716068309d636fd7dba6a92/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/neoris/dev/neolabkotlin2021/Clase2/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/neoris/dev/neolabkotlin2021/Clase2/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/neoris/dev/neolabkotlin2021/Clase2/app/src/main/AndroidManifest.xml:2:1-22:12
+	package
+		ADDED from /Users/neoris/dev/neolabkotlin2021/Clase2/app/src/main/AndroidManifest.xml:3:5-22
+		INJECTED from /Users/neoris/dev/neolabkotlin2021/Clase2/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/neoris/dev/neolabkotlin2021/Clase2/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/neoris/dev/neolabkotlin2021/Clase2/app/src/main/AndroidManifest.xml
+		ADDED from /Users/neoris/dev/neolabkotlin2021/Clase2/app/src/main/AndroidManifest.xml:2:1-22:12
+		INJECTED from /Users/neoris/dev/neolabkotlin2021/Clase2/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/neoris/dev/neolabkotlin2021/Clase2/app/src/main/AndroidManifest.xml
+		ADDED from /Users/neoris/dev/neolabkotlin2021/Clase2/app/src/main/AndroidManifest.xml:2:1-22:12
+		INJECTED from /Users/neoris/dev/neolabkotlin2021/Clase2/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/neoris/dev/neolabkotlin2021/Clase2/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/neoris/dev/neolabkotlin2021/Clase2/app/src/main/AndroidManifest.xml:5:5-20:19
+MERGED from [com.google.android.material:material:1.3.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/3181a5a230173e134995bbcc86f80951/material-1.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.3.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/3181a5a230173e134995bbcc86f80951/material-1.3.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/neoris/.gradle/caches/transforms-2/files-2.1/ba0e093ab9feaac534db9609fbf48161/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/neoris/.gradle/caches/transforms-2/files-2.1/ba0e093ab9feaac534db9609fbf48161/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.5.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/8ad9781498a53f7bdb0aff7d26128e97/core-1.5.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.5.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/8ad9781498a53f7bdb0aff7d26128e97/core-1.5.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/neoris/.gradle/caches/transforms-2/files-2.1/aeb7c424967bfdf4e41425f562b12a24/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/neoris/.gradle/caches/transforms-2/files-2.1/aeb7c424967bfdf4e41425f562b12a24/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.5.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/8ad9781498a53f7bdb0aff7d26128e97/core-1.5.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/neoris/dev/neolabkotlin2021/Clase2/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /Users/neoris/dev/neolabkotlin2021/Clase2/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /Users/neoris/dev/neolabkotlin2021/Clase2/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /Users/neoris/dev/neolabkotlin2021/Clase2/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /Users/neoris/dev/neolabkotlin2021/Clase2/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Users/neoris/dev/neolabkotlin2021/Clase2/app/src/main/AndroidManifest.xml:11:9-44
+activity#edu.neo.view.InicioActivity
+ADDED from /Users/neoris/dev/neolabkotlin2021/Clase2/app/src/main/AndroidManifest.xml:12:9-66
+	android:name
+		ADDED from /Users/neoris/dev/neolabkotlin2021/Clase2/app/src/main/AndroidManifest.xml:12:19-54
+activity#edu.neo.view.MainActivity
+ADDED from /Users/neoris/dev/neolabkotlin2021/Clase2/app/src/main/AndroidManifest.xml:13:9-19:20
+	android:name
+		ADDED from /Users/neoris/dev/neolabkotlin2021/Clase2/app/src/main/AndroidManifest.xml:13:19-52
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/neoris/dev/neolabkotlin2021/Clase2/app/src/main/AndroidManifest.xml:14:13-18:29
+action#android.intent.action.MAIN
+ADDED from /Users/neoris/dev/neolabkotlin2021/Clase2/app/src/main/AndroidManifest.xml:15:17-69
+	android:name
+		ADDED from /Users/neoris/dev/neolabkotlin2021/Clase2/app/src/main/AndroidManifest.xml:15:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/neoris/dev/neolabkotlin2021/Clase2/app/src/main/AndroidManifest.xml:17:17-77
+	android:name
+		ADDED from /Users/neoris/dev/neolabkotlin2021/Clase2/app/src/main/AndroidManifest.xml:17:27-74
+uses-sdk
+INJECTED from /Users/neoris/dev/neolabkotlin2021/Clase2/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/neoris/dev/neolabkotlin2021/Clase2/app/src/main/AndroidManifest.xml
+INJECTED from /Users/neoris/dev/neolabkotlin2021/Clase2/app/src/main/AndroidManifest.xml
+MERGED from [androidx.core:core-ktx:1.5.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/cf4f59ae0c999f13731f62320245edc5/jetified-core-ktx-1.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.5.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/cf4f59ae0c999f13731f62320245edc5/jetified-core-ktx-1.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.3.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/3181a5a230173e134995bbcc86f80951/material-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.3.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/3181a5a230173e134995bbcc86f80951/material-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/neoris/.gradle/caches/transforms-2/files-2.1/ba0e093ab9feaac534db9609fbf48161/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/neoris/.gradle/caches/transforms-2/files-2.1/ba0e093ab9feaac534db9609fbf48161/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/b3b2542a977fc3ec26045095d2e4b611/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/b3b2542a977fc3ec26045095d2e4b611/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/0b87ab1084a68f31fe387bc7a6868a5f/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/0b87ab1084a68f31fe387bc7a6868a5f/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.4] /Users/neoris/.gradle/caches/transforms-2/files-2.1/0668a1975f8156cd8eb5167294bd8680/fragment-1.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.4] /Users/neoris/.gradle/caches/transforms-2/files-2.1/0668a1975f8156cd8eb5167294bd8680/fragment-1.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] /Users/neoris/.gradle/caches/transforms-2/files-2.1/c04b982900c1b9f8de65701d1e876593/jetified-activity-1.2.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] /Users/neoris/.gradle/caches/transforms-2/files-2.1/c04b982900c1b9f8de65701d1e876593/jetified-activity-1.2.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/24f16f1ae1aaa067e37471e4086f8ace/jetified-appcompat-resources-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/24f16f1ae1aaa067e37471e4086f8ace/jetified-appcompat-resources-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/cbe165716a1da158b27c45f9619521d6/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/cbe165716a1da158b27c45f9619521d6/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/af6faebdfaee8ede67ca356f9981a994/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/af6faebdfaee8ede67ca356f9981a994/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/244af364c4722f7089dd9dc8d9f9e991/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/244af364c4722f7089dd9dc8d9f9e991/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/79b2779e8fbf8fbcb063f9f9e4e67056/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/79b2779e8fbf8fbcb063f9f9e4e67056/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/9a01dfeb8289247486dbf03ddd941979/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/9a01dfeb8289247486dbf03ddd941979/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/b7ae13ed11f3404e11a0bb746492733b/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/b7ae13ed11f3404e11a0bb746492733b/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/3b05e92a0b4e3112ba851c915a140a05/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/3b05e92a0b4e3112ba851c915a140a05/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/4766ec18f97cab2ef017ece40ecc56c8/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/4766ec18f97cab2ef017ece40ecc56c8/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/c8b5df6ac502237992eb101dc66d4842/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/c8b5df6ac502237992eb101dc66d4842/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/a6504399b3add68ab1d1cfa33877b7b9/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/a6504399b3add68ab1d1cfa33877b7b9/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/c3573009bfe2f3959f59564cb09bec83/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/c3573009bfe2f3959f59564cb09bec83/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.5.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/8ad9781498a53f7bdb0aff7d26128e97/core-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/8ad9781498a53f7bdb0aff7d26128e97/core-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/6e169f0fffbca92a5aa037f21ef6507d/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/6e169f0fffbca92a5aa037f21ef6507d/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/neoris/.gradle/caches/transforms-2/files-2.1/96cbf745a2db27cbb5367d7c59651321/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/neoris/.gradle/caches/transforms-2/files-2.1/96cbf745a2db27cbb5367d7c59651321/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/f6aa322e78b2ea3358b8ca84f229c3b8/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/f6aa322e78b2ea3358b8ca84f229c3b8/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/neoris/.gradle/caches/transforms-2/files-2.1/9d25dc472666990b383afef755a351e6/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/neoris/.gradle/caches/transforms-2/files-2.1/9d25dc472666990b383afef755a351e6/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/neoris/.gradle/caches/transforms-2/files-2.1/de6240809eb11f32e6b84f54a1c2cb70/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/neoris/.gradle/caches/transforms-2/files-2.1/de6240809eb11f32e6b84f54a1c2cb70/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/036e7ee8aa9548d79b7d25c6ad0be62d/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/036e7ee8aa9548d79b7d25c6ad0be62d/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/neoris/.gradle/caches/transforms-2/files-2.1/aeb7c424967bfdf4e41425f562b12a24/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/neoris/.gradle/caches/transforms-2/files-2.1/aeb7c424967bfdf4e41425f562b12a24/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/729d9cdf5cf43515f2831e07e462ba44/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/729d9cdf5cf43515f2831e07e462ba44/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/aad614d97ae7fbea1f0f8cb617937cc2/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/aad614d97ae7fbea1f0f8cb617937cc2/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/neoris/.gradle/caches/transforms-2/files-2.1/7c9f676589f73eac62d52d63318e394d/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/neoris/.gradle/caches/transforms-2/files-2.1/7c9f676589f73eac62d52d63318e394d/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/08bd8de163e4dce53d513b3cb9b25234/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/08bd8de163e4dce53d513b3cb9b25234/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/34bb78b8cebf54a661c5dc71920c2928/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/34bb78b8cebf54a661c5dc71920c2928/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/b8a526d91d1433f80bc255868b7dd72f/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/b8a526d91d1433f80bc255868b7dd72f/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/4dfd89864b23f573304fc4d6326895a2/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/4dfd89864b23f573304fc4d6326895a2/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/206106f115d834f1282b530daecf9d84/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/206106f115d834f1282b530daecf9d84/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/ccdffb566716068309d636fd7dba6a92/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/neoris/.gradle/caches/transforms-2/files-2.1/ccdffb566716068309d636fd7dba6a92/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/neoris/dev/neolabkotlin2021/Clase2/app/src/main/AndroidManifest.xml
+INJECTED from /Users/neoris/dev/neolabkotlin2021/Clase2/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/neoris/dev/neolabkotlin2021/Clase2/app/src/main/AndroidManifest.xml
+		ADDED from /Users/neoris/dev/neolabkotlin2021/Clase2/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/neoris/dev/neolabkotlin2021/Clase2/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/neoris/dev/neolabkotlin2021/Clase2/app/src/main/AndroidManifest.xml
+		ADDED from /Users/neoris/dev/neolabkotlin2021/Clase2/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/neoris/dev/neolabkotlin2021/Clase2/app/src/main/AndroidManifest.xml

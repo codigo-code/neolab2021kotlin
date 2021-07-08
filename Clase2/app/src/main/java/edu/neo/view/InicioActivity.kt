@@ -1,10 +1,12 @@
 package edu.neo.view
 
+import android.annotation.SuppressLint
 import android.icu.lang.UCharacter
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.*
+import android.widget.LinearLayout.*
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -28,6 +30,7 @@ class InicioActivity : AppCompatActivity() {
 
     lateinit var inicioVM: PersonaViewModel
 
+    @SuppressLint("WrongConstant")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_inicio)
@@ -84,7 +87,7 @@ class InicioActivity : AppCompatActivity() {
         verPersonas.setOnClickListener(
             View.OnClickListener {
 
-                rv_personas.layoutManager =LinearLayoutManager(this,RecyclerView.VERTICAL,false)
+                rv_personas.layoutManager =LinearLayoutManager(this, VERTICAL,false)
 
 
 
