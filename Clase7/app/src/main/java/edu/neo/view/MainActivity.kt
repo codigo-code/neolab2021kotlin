@@ -25,6 +25,7 @@ class MainActivity : AppCompatActivity() {
     lateinit var especie: TextView
     lateinit var foto: ImageView
     lateinit var buscar: Button
+
     @SuppressLint("WrongConstant")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -36,9 +37,9 @@ class MainActivity : AppCompatActivity() {
         foto = findViewById(R.id.p_imagen)
         buscar = findViewById(R.id.p_buscar)
 
-        val rvPer:RecyclerView=findViewById(R.id.personaje_rv)
+        val rvPer: RecyclerView = findViewById(R.id.personaje_rv)
         val pvm: PersonajeViewmodel = ViewModelProvider(this).get(PersonajeViewmodel::class.java)
-        val personajeFrg:PersonajeFragment = PersonajeFragment()
+        val personajeFrg: PersonajeFragment = PersonajeFragment()
 
         // habilitar para que acepte fragmentos
         val manager = supportFragmentManager
@@ -70,31 +71,24 @@ class MainActivity : AppCompatActivity() {
                                     .centerCrop()
                                     .into(foto);
 
-                                pvm.savePersonaje(Personaje(data?.id.toString().toInt(),
-                                data?.name.toString(),data?.status.toString(),
-                                    data?.species.toString(),data?.gender.toString(),data?.image.toString()
+                                pvm.savePersonaje(
+                                    Personaje(
+                                        data?.id.toString().toInt(),
+                                        data?.name.toString(),
+                                        data?.status.toString(),
+                                        data?.species.toString(),
+                                        data?.gender.toString(),
+                                        data?.image.toString()
                                     )
                                 )
 
                                 // ya tenemos cargada l alista llamos al adapter
-                                rvPer.layoutManager = LinearLayoutManager(it.context,LinearLayout.VERTICAL,false)
-                                rvPer.adapter=PersonajeAdapter(pvm.getAllPersonajes())
+                                rvPer.layoutManager =
+                                    LinearLayoutManager(it.context, LinearLayout.VERTICAL, false)
+                                rvPer.adapter = PersonajeAdapter(pvm.getAllPersonajes())
 
 
-                                // creamos un fragmento dentro de nuestra actividad
-                                val transaction = manager.beginTransaction()
 
-                                val args = Bundle() // genera un lazo ( MAPA ( K V ) y se lo pasa al fragmento que lo invoca
-                                // recupero el personaje de la lista por el id
-
-                                val objPersonaje: Personaje = pvm.getPersonajeByIdLista(id.text.toString().toInt())
-
-                                args.putString("name",objPersonaje.name)
-                                args.putString("image",objPersonaje.image)
-                                personajeFrg.arguments=args
-                                // TODO: Resolver el lunes ....
-                                transaction.replace(R.id.frame_replace_personaje,personajeFrg)
-                                transaction.commit()
 
                             }
                         }
@@ -102,16 +96,14 @@ class MainActivity : AppCompatActivity() {
                     }) // fin del enqueue
 
 
-
-
-
             }
-
-
 
 
         )
 
 
     }
+
+
+
 }

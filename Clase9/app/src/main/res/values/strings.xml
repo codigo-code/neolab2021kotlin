@@ -1,0 +1,7 @@
+<resources>
+    <string  name="app_name">Clase9</string>
+    <string name="password">Ingrese su password</string>
+    <string name="username">Ingrese su nombre de usuario</string>
+    <string name="login">Ingresar</string>
+
+</resources>

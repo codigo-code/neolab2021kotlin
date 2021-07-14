@@ -37,4 +37,8 @@ class PersonajeViewmodel : ViewModel() {
             return Personaje(1, "dummy", "dummy", "dummy", "dummy", "dummy")
 
     }
+
+
+
+   
 }
