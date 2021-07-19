@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1048550291792",
+    "project_id": "neolab-2e7b2",
+    "storage_bucket": "neolab-2e7b2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1048550291792:android:3094327740f549eae71455",
+        "android_client_info": {
+          "package_name": "edu.neo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1048550291792-f7jkuou3pmoil64h3q4t0382d3ebug66.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCBkqGqOTHVmkLEL5f02_IN6Xf4h07G9E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1048550291792-f7jkuou3pmoil64h3q4t0382d3ebug66.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
