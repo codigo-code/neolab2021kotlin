@@ -10,22 +10,25 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import edu.neo.R
 
-class GalleryFragment : Fragment() {
+class PersonaFragment : Fragment() {
 
-  private lateinit var galleryViewModel: GalleryViewModel
+  private lateinit var personaViewModel: PersonaViewModel
 
   override fun onCreateView(
     inflater: LayoutInflater,
     container: ViewGroup?,
     savedInstanceState: Bundle?
   ): View? {
-    galleryViewModel =
-            ViewModelProvider(this).get(GalleryViewModel::class.java)
-    val root = inflater.inflate(R.layout.fragment_gallery, container, false)
+    personaViewModel =
+            ViewModelProvider(this).get(PersonaViewModel::class.java)
+    val root = inflater.inflate(R.layout.persona_gallery, container, false)
     val textView: TextView = root.findViewById(R.id.text_gallery)
-    galleryViewModel.text.observe(viewLifecycleOwner, Observer {
-      textView.text = it
-    })
+
+    textView.text = arguments?.getString("persona")
+
+
     return root
   }
+
+
 }
